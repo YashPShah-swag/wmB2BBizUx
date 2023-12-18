@@ -21,7 +21,7 @@
         </div>
       </mat-card-title>
     </mat-card>
-    <div *ngIf="formJSON && valuesJSON" style="padding-bottom: 100px;">
+    <div *ngIf="formJSON && valuesJSON" style="padding-bottom: 100px; padding-top: 10px;">
         <lib-gp-dynamic-form [appearance]="appearance" [formJSON]="formJSON" [valuesJSON] = "valuesJSON" (formSubmitted)="onFormSubmitted($event)" (inputsChanged) ="inputsChanged($event)" >
         </lib-gp-dynamic-form>
 
