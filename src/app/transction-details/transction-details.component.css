@@ -1,0 +1,28 @@
+.fullpage{
+    width: 100%;
+    display: contents;
+    align-content: center;
+    align-items: center;
+    height:80vh;
+    padding-bottom: 50px;
+}
+.logo{
+    margin-left: 20px;
+    width: 65px;
+    height: 65px;
+    padding: 10px;
+}
+.title{
+    margin-top: 5px;
+    color:#011F3D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:normal;
+    font-size: 125%;
+}
+.titleHeading{
+    margin-top: 10px;
+}
+mat-card{
+    width: 100%;
+    height: fit-content;
+}
